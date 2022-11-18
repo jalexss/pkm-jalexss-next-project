@@ -7,7 +7,7 @@ type Props = {
   title?: string,
 }
 
-
+//url -> example: http://localhost:3000
 const origin = (typeof window !== 'undefined') ? window.location.origin : '';
 
 export const Layout: FC<Props> = ({children, title}) => {
